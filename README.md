@@ -1,4 +1,4 @@
-## <span id="tseyi-notes--学习笔记合集✒️">TseYi-Notes ｜ 学习笔记合集✒️</span>
+# <span id="deep-ai-notes--ai 知识库✒️">Deep-AI-Notes ｜ AI 知识库✒️</span><img src="https://blog.246612.xyz/apple-myidea.png" align="right" width="20%">
 
 > Record end-to-end learning journeys across data science, machine learning and AI.
 > 系统整理数据科学、机器学习与人工智能的学习路径、课堂笔记与实战练习。
@@ -6,19 +6,19 @@
 - This repo is maintained as an Obsidian-friendly knowledge base, and you are very welcome to **fork and adapt it for your own learning notes**.
   - 本仓库以 Obsidian 为核心编辑工作流，欢迎大家 **fork 并按需改造**，用于搭建自己的学习笔记体系。
 - This site is generated with **docsify**, so every Markdown file under `docs/` stays lightweight and instantly refreshes when updated.
-  - 本站采用 docsify 搭建，`docs/` 下的 Markdown 会实时渲染，适合快速迭代与预览。
+  - 本站采用 docsify 搭建，`docs/` 下的 Markdown 会实时渲染,适合快速迭代与预览。
 
 ---
 
-**Repo ｜ 项目仓库**：<https://github.com/FuTseYi/TseYi-Notes>
+**Repo ｜ 项目仓库**：<https://github.com/FuTseYi/Deep-AI-Notes>
 
 **Online reading ｜ 在线预览**：<https://edu.xieyi.org>
 
 ---
 
-### <span id="table-of-contents--目录">Table of Contents ｜ 目录</span>
+## <span id="table-of-contents--目录">Table of Contents ｜ 目录</span>
 
-- [TseYi-Notes ｜ 学习笔记合集✒️](#tseyi-notes--学习笔记合集️)
+- [Deep-AI-Notes ｜ AI 知识库✒️](#deep-ai-notes--ai-知识库️)
   - [Table of Contents ｜ 目录](#table-of-contents--目录)
   - [Project Overview ｜ 项目简介](#project-overview--项目简介)
   - [Key Highlights ｜ 项目亮点](#key-highlights--项目亮点)
@@ -34,22 +34,22 @@
 
 ---
 
-### <span id="project-overview--项目简介">Project Overview ｜ 项目简介</span>
+## <span id="project-overview--项目简介">Project Overview ｜ 项目简介</span>
 
 **EN**
-TseYi Notes gathers multi-stage study notes, hands-on notebooks, and curated references from long-term learning programs (Datawhale, Stanford CS224W, MetaGPT, etc.). It aims to help self-learners quickly locate trustworthy materials, reproduce experiments, and internalize methodologies. The docs site is rendered by docsify from the `docs/` directory, and the project is maintained together with an Obsidian vault so that all Markdown notes in `docs/` and `notebook/` can be organized, searched and edited efficiently.
+Deep-AI-Notes gathers multi-stage study notes, hands-on notebooks, and curated references from long-term learning programs (Datawhale, Stanford CS224W, MetaGPT, etc.). It aims to help self-learners quickly locate trustworthy materials, reproduce experiments, and internalize methodologies. The docs site is rendered by docsify from the `docs/` directory, and the project is maintained together with an Obsidian vault so that all Markdown notes in `docs/` and `notebook/` can be organized, searched and edited efficiently.
 
 **CN**
-TseYi Notes 汇集了多期组队学习、课程实战与自学整理的资料，涵盖数据分析、NLP、CV、图学习、推荐系统、可解释性与多智能体等方向。站点基于 docsify 渲染 `docs/` 目录，项目同时配套使用 Obsidian 进行管理，便于对 `docs/` 与 `notebook/` 中的 Markdown 笔记进行统一整理、检索与编辑，希望通过结构化的文档帮助学习者快速搭建知识网络、复现实验并形成自己的方法论。
+Deep-AI-Notes 汇集了多期组队学习、课程实战与自学整理的资料，涵盖数据分析、NLP、CV、图学习、推荐系统、可解释性与多智能体等方向。站点基于 docsify 渲染 `docs/` 目录，项目同时配套使用 Obsidian 进行管理，便于对 `docs/` 与 `notebook/` 中的 Markdown 笔记进行统一整理、检索与编辑，希望通过结构化的文档帮助学习者快速搭建知识网络、复现实验并形成自己的方法论。
 
-### <span id="key-highlights--项目亮点">Key Highlights ｜ 项目亮点</span>
+## <span id="key-highlights--项目亮点">Key Highlights ｜ 项目亮点</span>
 
 - **Curated Tracks 精选学习路径**：覆盖 20+ 期 Datawhale 课程与扩展专题，内容体系完整。
 - **Docs + Notebooks 双形态**：`docs/` 适合在线阅读；`notebook/` 提供可运行的 Jupyter 实验。
 - **Tooling Ready 工具化支撑**：附带 requirements、常用脚本与 Neo4j、PyTorch Geometric 等环境说明。
 - **Continuous Expansion 持续扩展**：以「学习路线 → 实战项目 → 知识库」的节奏迭代更新。
 
-### <span id="repository-structure--仓库结构">Repository Structure ｜ 仓库结构</span>
+## <span id="repository-structure--仓库结构">Repository Structure ｜ 仓库结构</span>
 
 ```bash
 docs/                         文档化的学习笔记与项目说明
@@ -77,7 +77,7 @@ QASystemOnMedicalGraph/       医疗知识图谱问答系统源码
 requirements.txt              Conda 依赖快照
 ```
 
-### <span id="learning-materials--学习资料来源">Learning Materials ｜ 学习资料来源</span>
+## <span id="learning-materials--学习资料来源">Learning Materials ｜ 学习资料来源</span>
 
 对应的课程/资料入口如下，建议结合官方仓库使用：
 
@@ -105,50 +105,50 @@ requirements.txt              Conda 依赖快照
 22. [MetaGPT 开源项目](https://github.com/geekan/MetaGPT/)
 23. [Happy-LLM](https://github.com/datawhalechina/happy-llm.git)
 
-### <span id="environment-setup--环境配置">Environment Setup ｜ 环境配置</span>
+## <span id="environment-setup--环境配置">Environment Setup ｜ 环境配置</span>
 
-#### <span id="a-docs-only-preview--仅阅读模式">A. Docs-only Preview ｜ 仅阅读模式</span>
+### <span id="a-docs-only-preview--仅阅读模式">A. Docs-only Preview ｜ 仅阅读模式</span>
 
 1. Install docsify-cli ｜ 安装 docsify-cli
 
-   ```shell
+```shell
    npm install docsify-cli -g
-   ```
+```
 
 2. Local preview ｜ 本地预览
 
-   ```shell
+```shell
    docsify serve ./docs
-   ```
+```
 
    Open `http://localhost:3000` to browse the documentation.
 
-#### <span id="b-full-notebook-environment--完整运行环境">B. Full Notebook Environment ｜ 完整运行环境</span>
+### <span id="b-full-notebook-environment--完整运行环境">B. Full Notebook Environment ｜ 完整运行环境</span>
 
 - **Python**: 3.10 (Windows)
 - **Install dependencies ｜ 安装依赖**
 
-  ```shell
+```shell
   conda install --yes --file requirements.txt
-  ```
+```
 
 - **PyTorch (CUDA 12.1)**
 
-  ```shell
+```shell
   pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
-  ```
+```
 
 - **PyTorch Geometric**
 
-  ```shell
+```shell
   conda install pytorch-geometric -c rusty1s -c conda-forge
-  ```
+```
 
 - **Ray Tune**
 
-  ```shell
+```shell
   conda install ray-tune -c conda-forge
-  ```
+```
 
 - **Neo4j (optional ｜ 可选)**
   - [Windows10 安装指南](https://blog.csdn.net/lihuaqinqwe/article/details/80314895)
@@ -158,10 +158,10 @@ Tips ｜ 小贴士：
 
 使用 `conda list -e > requirements.txt` 可导出当前环境，便于协作者同步。
 
-#### <span id="c-obsidian-workspace--obsidian-工作流">C. Obsidian Workspace ｜ Obsidian 工作流</span>
+### <span id="c-obsidian-workspace--obsidian-工作流">C. Obsidian Workspace ｜ Obsidian 工作流</span>
 
 1. **Install Obsidian ｜ 安装 Obsidian**：前往 <https://obsidian.md> 下载桌面版本。
-2. **Open vault ｜ 打开仓库**：在 Obsidian 中选择 “Open folder as vault”，指向本仓库根目录（推荐 `TseYi-Notes/`）。
+2. **Open vault ｜ 打开仓库**：在 Obsidian 中选择 "Open folder as vault"，指向本仓库根目录（推荐 `Deep-AI-Notes/`）。
 3. **Folder mapping ｜ 目录映射**：将 `docs/` 与 `notebook/` 加入左侧收藏，便于快速检索双语笔记。
 4. **Plugins ｜ 插件配置（节选）**
    本仓库已经在 `.obsidian/plugins/` 中预配置了一些常用插件，克隆后可直接作为 Obsidian 工作区使用：
@@ -177,20 +177,20 @@ Tips ｜ 小贴士：
    如需完整列表，可直接查看 `.obsidian/plugins/` 目录。
 5. **Sync tips ｜ 同步提示**：Obsidian 仅作为编辑器，请继续通过 Git 进行版本管理，避免与 `docsify` 输出目录发生混淆。
 
-### <span id="usage-guide--使用指南">Usage Guide ｜ 使用指南</span>
+## <span id="usage-guide--使用指南">Usage Guide ｜ 使用指南</span>
 
 1. **Clone 仓库**
 
-   ```shell
-   git clone https://github.com/FuTseYi/TseYi-Notes.git
-   cd TseYi-Notes
-   ```
+```shell
+   git clone https://github.com/FuTseYi/Deep-AI-Notes.git
+   cd Deep-AI-Notes
+```
 
 2. **Docs 模式**：执行 `docsify serve ./docs`。
 3. **Notebook 模式**：激活 Conda 环境后在 `notebook/` 中打开对应 `.ipynb` 文件。
 4. **知识图谱示例**：进入 `QASystemOnMedicalGraph/`，参考子目录 README 完成 Neo4j、Flask 或前端部署。
 
-### <span id="contribution--贡献指南">Contribution ｜ 贡献指南</span>
+## <span id="contribution--贡献指南">Contribution ｜ 贡献指南</span>
 
 - 欢迎提交 Issue 分享勘误、补充学习资料或提出改进建议。
 - 提交 PR 时请：
@@ -199,10 +199,10 @@ Tips ｜ 小贴士：
   3. 附带必要的截图、运行日志或测试说明。
 - 建议遵循 Git 提交信息格式：`feat: 添加 XXX 笔记` / `docs: 更新 README`.
 
-### <span id="license-and-citation--许可证与引用">License & Citation ｜ 许可证与引用</span>
+## <span id="license--citation--许可证与引用">License & Citation ｜ 许可证与引用</span>
 
 - 本仓库采用 MIT License，已在根目录提供 `LICENSE` 文件。
-- 如引用本仓库内容，请注明来源：`TseYi-Notes (https://github.com/FuTseYi/TseYi-Notes)`。
+- 如引用本仓库内容，请注明来源：`Deep-AI-Notes (https://github.com/FuTseYi/Deep-AI-Notes)`。
 
 ---
 
