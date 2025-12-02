@@ -8,7 +8,6 @@
   "showFilesFromSubFoldersButton": true,
   "revealActiveFileButton": true,
   "excludedExtensions": "",
-  "excludedFolders": "docs, node_modules, scripts, src/components, src/constants, src/i18n, src/layouts, src/pages, src/plugins, src/styles, src/types, src/utils",
   "hideAttachments": false,
   "attachmentsFolderName": "attachments",
   "folderIcon": "typicon",

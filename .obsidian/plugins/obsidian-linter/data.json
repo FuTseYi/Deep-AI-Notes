@@ -93,7 +93,7 @@
     },
     "header-increment": {
       "enabled": true,
-      "start-at-h2": true
+      "start-at-h2": false
     },
     "headings-start-line": {
       "enabled": true
@@ -277,8 +277,8 @@
   "displayLintOnFileChangeNotice": true,
   "settingsConvertedToConfigKeyValues": true,
   "foldersToIgnore": [
-    "notebook",
-    "QASystemOnMedicalGraph"
+    "QASystemOnMedicalGraph",
+    "notebook"
   ],
   "filesToIgnore": [
     {

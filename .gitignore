@@ -267,20 +267,54 @@ notebook/pandas20/data/task11/
 /notebook/diffusion_models_learning51/assets/unit4/README.md
 /notebook/diffusion_models_learning51/assets/unit4/README_CN.md
 
-#Obsidian
-.obsidian/plugins/recent-files-obsidian/data.json
-.trash
-.obsidian/plugins/remotely-save/main.js
-# 可选忽略
-#.obsidian/core-plugins.json
-#.obsidian/community-plugins.json
-#.obsidian/templates.json
-#.obsidian/workspaces.json
-#.obsidian/app.json
-#.obsidian/appearance.json
-#.obsidian/graph.json
-#.obsidian/backlink.json
-#.obsidian/workspace.json
-#.obsidian/workspace-mobile.json
-#.obsidian/webviewer.json
+# Obsidian
+# 核心原则：保留配置(Settings)，忽略状态(State)和缓存(Cache)
+
+# 1. 忽略工作区状态
+# workspace.json 记录了当前打开的文件、面板布局、滚动位置等。
+# 这些信息变动极快，且在不同设备间通常不需要同步，容易产生冲突。
+.obsidian/appearance.json
 .obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/workspace
+
+# 2. 忽略缓存和临时文件
+.obsidian/cache/
+.trash/
+.obsidian/graph.json
+
+# 3. 插件数据特殊处理
+# 默认情况下，保留所有插件的 data.json，因为它们包含插件的重要设置。
+# 仅忽略那些纯粹记录“历史记录”或“缓存”且变动频繁的插件数据。
+
+# [Recent Files] 记录最近打开的文件列表，纯状态信息，可忽略
+.obsidian/plugins/recent-files-obsidian/data.json
+
+# [Omnisearch] 索引缓存文件，体积大且可重新生成，建议忽略 (如果安装了的话)
+.obsidian/plugins/omnisearch/cache/
+
+#pdf-plus 插件的 data.json 包含大量缓存数据，建议忽略
+.obsidian/plugins/pdf-plus/data.json
+
+# [Obsidian Quiet Outline] 记录大纲视图的折叠状态，纯状态信息，可忽略
+.obsidian/plugins/obsidian-quiet-outline/markdown-states.json
+
+# 4. 安全性忽略 (敏感信息保护)
+# 如果你的仓库是公开的(Public)，或者你不希望将密钥上传到云端，
+# 请取消注释以下行，以忽略包含 Token/密码 的插件配置。
+# [Image Auto Upload] 包含图床 Token (PicGo/PicList key)
+.obsidian/plugins/obsidian-image-auto-upload-plugin/data.json
+# [Obsidian Git] 包含自动备份设置，有时包含认证信息
+.obsidian/plugins/obsidian-git/data.json
+
+# 5. 必须保留的文件 (显式说明，无需写入规则，但作为参考)
+# - app.json (核心设置)
+# - appearance.json (外观设置)
+# - community-plugins.json (已启用插件列表)
+# - core-plugins.json (核心插件开关)
+# - hotkeys.json (快捷键)
+# - plugins/ (插件代码和配置)
+# - themes/ (主题)
+# - snippets/ (CSS片段)
+
+

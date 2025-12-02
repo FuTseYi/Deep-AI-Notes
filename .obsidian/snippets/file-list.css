@@ -2,24 +2,20 @@
 /* ===== 文件夹图标 ===== */
 
 /* 匹配 All-in-one-Obsidian, src, src/content 文件夹 */
-.nav-folder-title[data-path="docs"] .nav-folder-title-content::before,
-.nav-folder-title[data-path="notebook"] .nav-folder-title-content::before {
+.nav-folder-title[data-path="docs"] .nav-folder-title-content::before{
     content: "📂";
 }
 
-/* 匹配 All-in-one-Obsidian 和 src/content 的第一级子文件夹 */
-.nav-folder-title[data-path="All-in-one-Obsidian"] + .nav-folder-children > .nav-folder > .nav-folder-title .nav-folder-title-content::before,
-.nav-folder-title[data-path="src/content"] + .nav-folder-children > .nav-folder > .nav-folder-title .nav-folder-title-content::before {
+/* 匹配docs的第一级子文件夹 */
+.nav-folder-title[data-path="docs"] + .nav-folder-children > .nav-folder > .nav-folder-title .nav-folder-title-content::before {
     content: "↘️";
 }
-/* 匹配 All-in-one-Obsidian 和 src/content 的第二级子文件夹 */
-.nav-folder-title[data-path="All-in-one-Obsidian"] + .nav-folder-children > .nav-folder > .nav-folder-children > .nav-folder > .nav-folder-title .nav-folder-title-content::before,
-.nav-folder-title[data-path="src/content"] + .nav-folder-children > .nav-folder > .nav-folder-children > .nav-folder > .nav-folder-title .nav-folder-title-content::before {
+/* 匹配docs的第二级子文件夹 */
+.nav-folder-title[data-path="docs"] + .nav-folder-children > .nav-folder > .nav-folder-children > .nav-folder > .nav-folder-title .nav-folder-title-content::before{
     content: "";
 }
-/* 匹配 All-in-one-Obsidian 和 src/content 的第三级子文件夹 */
-.nav-folder-title[data-path="All-in-one-Obsidian"] + .nav-folder-children > .nav-folder > .nav-folder-children > .nav-folder > .nav-folder-children > .nav-folder > .nav-folder-title .nav-folder-title-content::before,
-.nav-folder-title[data-path="src/content"] + .nav-folder-children > .nav-folder > .nav-folder-children > .nav-folder > .nav-folder-children > .nav-folder > .nav-folder-title .nav-folder-title-content::before {
+/* 匹配docs的第三级子文件夹 */
+.nav-folder-title[data-path="docs"] + .nav-folder-children > .nav-folder > .nav-folder-children > .nav-folder > .nav-folder-children > .nav-folder > .nav-folder-title .nav-folder-title-content::before{
     content: "";
 }
 
