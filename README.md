@@ -54,25 +54,25 @@ Deep-AI-Notes 汇集了多期组队学习、课程实战与自学整理的资料
 ```bash
 docs/                         文档化的学习笔记与项目说明
 notebook/                     Jupyter Notebook 形式的实战记录
-  pandas20/                   第20期 Pandas 课程
-  knowledge_graph_basic21/    第21期 知识图谱实践
-  ensemble_learning23-25/     第23-25期 集成学习
-  gnn_learning26/             第26期 图神经网络
-  pumpkin_learning27/         第27期 吃瓜课程（西瓜书+南瓜书）
-  transformers_nlp28/         第28期 Transformers NLP
-  matplotlib_learning29/      第29期 数据可视化
-  tree_ensemble30/            第30期 树模型与集成学习
-  unusual_deep_learning31/    第31期 深度学习专题
-  recommender_system32/       第32期 推荐系统
-  pytorch_learning35/         第35期 深入浅出 PyTorch
-  lee_ml37/                   第37期 李宏毅机器学习
-  pytorch_rechub_learning38/  第38期 推荐模型复现
-  intel_openvino_learning39/40 Intel OpenVINO 初/高阶
-  interpretable_ml44/         第44期 可解释性机器学习
-  cs224w_learning46/          第46期 CS224W 图机器学习
-  diffusion_model_learning51/ 第51期 扩散模型
-  metagpt_learning55/         第55期 多智能体
-  happyllm_learning202506/    2025.06 Happy-LLM 学习
+  20_pandas/                   第20期 Pandas 课程
+  21_knowledge_graph_basic/    第21期 知识图谱实践
+  23-25_ensemble_learning/     第23-25期 集成学习
+  26_gnn_learning/             第26期 图神经网络
+  27_pumpkin_learning/         第27期 吃瓜课程（西瓜书+南瓜书）
+  28_transformers_nlp/         第28期 Transformers NLP
+  29_matplotlib_learning/      第29期 数据可视化
+  30_tree_ensemble/            第30期 树模型与集成学习
+  31_unusual_deep_learning/    第31期 深度学习专题
+  32_recommender_system/       第32期 推荐系统
+  35_pytorch_learning/         第35期 深入浅出 PyTorch
+  37_lee_ml/                   第37期 李宏毅机器学习
+  38_pytorch_rechub_learning/  第38期 推荐模型复现
+  39/40_intel_openvino_learning/ Intel OpenVINO 初/高阶
+  44_interpretable_ml/         第44期 可解释性机器学习
+  46_cs224w_learning/          第46期 CS224W 图机器学习
+  51_diffusion_model_learning/ 第51期 扩散模型
+  55_metagpt_learning/         第55期 多智能体
+  202506_happyllm_learning/    2025.06 Happy-LLM 学习
 QASystemOnMedicalGraph/       医疗知识图谱问答系统源码
 requirements.txt              Conda 依赖快照
 ```
