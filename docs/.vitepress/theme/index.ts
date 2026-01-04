@@ -45,7 +45,7 @@ export default {
                 src: 'https://ghbtns.com/github-btn.html?user=FuTseYi&repo=ViteNotes&type=star&count=true&size=large',
                 title: 'GitHub',
                 height: 30,
-                width: 120,
+                width: 170,
               })
             ])
           ])
